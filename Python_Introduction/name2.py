@@ -3,7 +3,7 @@
 def coolify(name):
     return name + "is cool"
 
-def __main():
+def __main__():
     myname = input("please type in your name : ")
     myname = coolify(myname)
     print(myname)
